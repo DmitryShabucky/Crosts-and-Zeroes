@@ -147,10 +147,12 @@ while True:
         elif game_stop == 1:
             break
 
-    answer = input('Играем еще раз: "y" или "n"? ')
+    answer = input('Играем еще раз: "y" или "n"? ')         # Option to start a new game or to break the cicle
 
     if end_of_game(answer):
         continue
     else:
         print("Приятно было поиграть.")
+        print()
         break
+
